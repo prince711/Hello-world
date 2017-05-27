@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private static final String TAG = "SignInActivity";
     private static final int RC_SIGN_IN = 9001;
 
-    private TextView mStatusTextView;
-    private ProgressDialog mProgressDialog;
+//    private TextView mStatusTextView;
+//    private ProgressDialog mProgressDialog;
     private boolean loggedIn = true;
-    private String scope = "https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/userinfo.profile";
+//    private String scope = "https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/userinfo.profile";
     private String result;
     private String token;
 
